@@ -2,11 +2,11 @@
 
 # 🚀 FileServer Pro
 
-### Solution Professionnelle de Centralisation et de Transfert Documentaire
+### Professional Document Transfer & Centralized File Management System
 
-### 👨‍💻 Développé par Omar Badrani
+### 👨‍💻 Developed by Omar Badrani
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Centralisation+des+Documents;Transfert+Sécurisé+des+Fichiers;Suivi+Temps+Réel+des+Clients;Gestion+Documentaire+Professionnelle;Dashboard+et+Historique+Avancés" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=900&lines=Secure+File+Transfer+System;Centralized+Document+Management;Real-Time+Network+Monitoring;Modern+Python+Desktop+Application;Built+with+CustomTkinter" />
 
 <br>
 
@@ -21,70 +21,74 @@
 
 ---
 
-# 📖 Présentation
+# 📖 Overview
 
-**FileServer Pro** est une application client-serveur développée en Python permettant la réception, la centralisation, l'organisation et la supervision des transferts de fichiers sur un réseau local.
+**FileServer Pro** is a professional client-server application built with Python that enables secure file transfer, centralized document storage, real-time monitoring, and complete transfer tracking across a local network.
 
-L'application a été conçue pour les entreprises, ateliers, services administratifs et environnements nécessitant un système fiable de gestion documentaire.
-
----
-
-# ✨ Fonctionnalités
-
-## 🔐 Authentification Sécurisée
-
-- Connexion utilisateur sécurisée
-- Gestion des sessions
-- Protection contre les accès non autorisés
-- Hachage des mots de passe
-
-## 📁 Gestion Documentaire
-
-- Réception automatique des fichiers
-- Organisation par département
-- Structure de stockage centralisée
-- Navigation rapide dans les dossiers
-
-## 📊 Tableau de Bord
-
-- Nombre total de fichiers reçus
-- Volume de données transférées
-- Nombre de postes connectés
-- Activité récente en temps réel
-
-## 🖥️ Supervision Réseau
-
-- Liste des clients connectés
-- Adresse IP et nom des postes
-- État des connexions
-- Historique des connexions
-
-## 📋 Historique des Transferts
-
-- Date et heure
-- Utilisateur
-- Poste source
-- Taille du fichier
-- Dossier de destination
-
-## 📝 Journalisation
-
-- Logs temps réel
-- Archivage automatique
-- Traçabilité complète des opérations
+Designed for businesses, workshops, administrative offices, and organizations that require reliable document management and secure file sharing.
 
 ---
 
-# 🏗️ Architecture Générale
+# ✨ Key Features
+
+## 🔐 Secure Authentication
+
+- User login system
+- Secure password hashing
+- Session management
+- Access control
+- User activity tracking
+
+## 📁 Centralized File Management
+
+- Automatic file reception
+- Organized storage structure
+- Department-based classification
+- Quick folder navigation
+
+## 📊 Real-Time Dashboard
+
+- Total files received
+- Storage usage statistics
+- Connected client count
+- Daily transfer activity
+- Live server monitoring
+
+## 🖥️ Network Monitoring
+
+- Connected clients overview
+- IP address tracking
+- Workstation identification
+- Connection history
+- Real-time status updates
+
+## 📋 Transfer History
+
+- Detailed transfer logs
+- User tracking
+- Source IP logging
+- File size monitoring
+- Destination folder records
+
+## 📝 System Logging
+
+- Real-time logs
+- Permanent archive
+- Event monitoring
+- Exportable records
+
+---
+
+# 🏗️ System Architecture
 
 ```mermaid
 flowchart LR
 
-A[🖥️ Atelier]
-B[💼 Administration]
-C[👨‍💼 RH]
-D[📊 Comptabilité]
-E[🌐 Commercial]
+A[🖥️ Workshop]
+B[🏢 Administration]
+C[👨‍💼 HR Department]
+D[💰 Accounting]
+E[📈 Sales Department]
 
 A --> S
 B --> S
@@ -94,33 +98,33 @@ E --> S
 
 S[🚀 FileServer Pro]
 
-S --> F[📁 Stockage Central]
+S --> F[📁 Central Storage]
 S --> G[📊 Dashboard]
-S --> H[📋 Historique]
-S --> I[📝 Logs]
+S --> H[📋 Transfer History]
+S --> I[📝 System Logs]
 ```
 
 ---
 
-# 🔄 Cycle de Traitement
+# 🔄 File Transfer Workflow
 
 ```mermaid
 sequenceDiagram
 
 participant Client
-participant Serveur
-participant Stockage
+participant Server
+participant Storage
 
-Client->>Serveur: Envoi du fichier
-Serveur->>Serveur: Vérification
-Serveur->>Stockage: Sauvegarde
-Serveur->>Serveur: Historisation
-Serveur->>Client: Confirmation
+Client->>Server: Send File
+Server->>Server: Validate Request
+Server->>Storage: Store File
+Server->>Server: Save History
+Server->>Client: Transfer Confirmed
 ```
 
 ---
 
-# 📂 Structure du Projet
+# 📂 Project Structure
 
 ```text
 FileServer-Pro/
@@ -136,11 +140,11 @@ FileServer-Pro/
 ├── data/
 │   ├── Production/
 │   ├── Administration/
-│   ├── RH/
-│   ├── Commercial/
-│   ├── Comptabilite/
-│   ├── Informatique/
-│   └── Logistique/
+│   ├── HumanResources/
+│   ├── Sales/
+│   ├── Accounting/
+│   ├── IT/
+│   └── Logistics/
 │
 └── .logs/
     ├── connections.json
@@ -150,67 +154,69 @@ FileServer-Pro/
 
 ---
 
-# 📂 Organisation des Documents
+# 📂 Storage Structure
 
 ```text
-ServeurData/
+ServerData/
 │
 ├── Production/
 ├── Administration/
-├── Commercial/
-├── RH/
-├── Comptabilite/
-├── Informatique/
-├── Logistique/
+├── HumanResources/
+├── Sales/
+├── Accounting/
+├── IT/
+├── Logistics/
 │
 └── .logs/
 ```
 
 ---
 
-# 📊 Tableau de Bord
+# 📊 Dashboard Overview
 
-Le dashboard permet de visualiser :
+The dashboard provides real-time information about:
 
-| Information | Description |
-|------------|------------|
-| 📄 Fichiers reçus | Nombre total de fichiers |
-| 💾 Volume transféré | Quantité de données reçues |
-| 🖥️ Clients connectés | Nombre de postes actifs |
-| 📅 Activité du jour | Transferts quotidiens |
-| 📋 Historique récent | Dernières opérations |
-
----
-
-# 🔒 Sécurité
-
-- Authentification sécurisée
-- Hachage des mots de passe
-- Journalisation complète
-- Historique permanent
-- Gestion des utilisateurs
-- Contrôle des connexions
-- Traçabilité des opérations
+| Feature | Description |
+|----------|-------------|
+| 📄 Files Received | Total received documents |
+| 💾 Storage Usage | Total transferred data |
+| 🖥️ Connected Clients | Active workstations |
+| 📅 Daily Activity | Today's transfers |
+| 📋 Recent History | Latest operations |
 
 ---
 
-# ⚙️ Technologies Utilisées
+# 🔒 Security
 
-| Technologie | Description |
-|------------|------------|
-| Python | Langage principal |
-| CustomTkinter | Interface graphique moderne |
-| Socket TCP/IP | Communication réseau |
-| JSON | Stockage des données |
-| Threading | Gestion multi-clients |
-| Hashlib | Sécurité |
-| Pillow | Gestion des images |
+FileServer Pro includes several security mechanisms:
+
+- Secure authentication
+- Password hashing
+- User session management
+- Activity logging
+- Transfer history tracking
+- Connection monitoring
+- Access control
+
+---
+
+# ⚙️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Core application |
+| CustomTkinter | Modern GUI |
+| Socket TCP/IP | Network communication |
+| JSON | Data persistence |
+| Threading | Multi-client handling |
+| Hashlib | Security |
+| Pillow | Image processing |
 
 ---
 
 # 🚀 Installation
 
-## Clonage
+## Clone Repository
 
 ```bash
 git clone https://github.com/omarbadrani/FileServer-Pro.git
@@ -218,7 +224,9 @@ git clone https://github.com/omarbadrani/FileServer-Pro.git
 cd FileServer-Pro
 ```
 
-## Création d'un environnement virtuel
+---
+
+## Create Virtual Environment
 
 ### Windows
 
@@ -236,13 +244,17 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-## Installation des dépendances
+---
+
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Lancement du serveur
+---
+
+## Run Server
 
 ```bash
 python server_app.py
@@ -250,7 +262,7 @@ python server_app.py
 
 ---
 
-# 📦 Dépendances
+# 📦 Requirements
 
 ```txt
 customtkinter>=5.2.0
@@ -259,103 +271,107 @@ Pillow>=10.0.0
 
 ---
 
-# 📸 Captures d'Écran
+# 📸 Screenshots
 
-Ajoutez ici vos captures réelles :
+## 🔐 Login Screen
 
-### 🔐 Authentification
+Replace with actual screenshot:
 
 ```text
-Login sécurisé
+Secure Authentication Interface
 ```
 
-### 📊 Dashboard
+## 📊 Dashboard
+
+Replace with actual screenshot:
 
 ```text
-Vue d'ensemble du serveur
+Real-Time Monitoring Dashboard
 ```
 
-### 📁 Gestion documentaire
+## 📁 File Explorer
+
+Replace with actual screenshot:
 
 ```text
-Explorateur des fichiers reçus
+Centralized Document Management
 ```
 
 ---
 
-# 🎯 Évolutions Futures
+# 🎯 Future Enhancements
 
 ```mermaid
 mindmap
   root((FileServer Pro))
 
-    Sécurité
-      Chiffrement AES
-      Gestion avancée des rôles
-      Permissions granulaires
+    Security
+      AES Encryption
+      Advanced User Roles
+      Permission Management
 
     Administration
-      Base SQLite
-      Sauvegardes automatiques
-      Rapports PDF
+      SQLite Database
+      Automatic Backups
+      PDF Reports
 
-    Réseau
-      Multi-serveurs
-      Synchronisation distante
-      Réplication
+    Network
+      Multi-Server Support
+      Remote Synchronization
+      Data Replication
 
     Interface
-      Interface Web
-      Application Mobile
-      Mode sombre avancé
+      Web Dashboard
+      Mobile Application
+      Advanced Dark Mode
 
-    Productivité
-      Notifications temps réel
-      Recherche intelligente
-      Export Excel
+    Productivity
+      Real-Time Notifications
+      Smart Search
+      Excel Export
 ```
 
 ---
 
-# 🤝 Contribution
+# 🤝 Contributing
 
-Les contributions sont les bienvenues.
+Contributions are welcome.
 
 ```text
-Fork
- ↓
-Nouvelle branche
- ↓
-Développement
- ↓
-Commit
- ↓
-Pull Request
+Fork Repository
+       ↓
+Create Branch
+       ↓
+Develop Feature
+       ↓
+Commit Changes
+       ↓
+Open Pull Request
 ```
 
 ---
 
-# 📜 Licence
+# 📜 License
 
 MIT License
 
 Copyright (c) 2026 Omar Badrani
 
-Permission est accordée à toute personne obtenant une copie de ce logiciel et de sa documentation associée d'utiliser, copier, modifier et distribuer le logiciel sous les conditions de la licence MIT.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files to use, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
 
 ---
 
-# ⭐ Support du Projet
+# ⭐ Support
 
-Si ce projet vous est utile :
+If you find this project useful:
 
-⭐ Mettre une étoile sur GitHub
+⭐ Star the repository
 
-🐛 Signaler les bugs
+🐛 Report issues
 
-💡 Proposer des améliorations
+💡 Suggest improvements
 
-🤝 Participer au développement
+🤝 Contribute to development
 
 ---
 
@@ -363,12 +379,12 @@ Si ce projet vous est utile :
 
 # 🚀 FileServer Pro
 
-### Centraliser • Sécuriser • Superviser
+### Centralize • Secure • Monitor
 
 ### 👨‍💻 Omar Badrani
 
-Développé avec Python & CustomTkinter
+Built with Python & CustomTkinter
 
-© 2026 Omar Badrani - Tous droits réservés
+© 2026 Omar Badrani. All Rights Reserved.
 
 </div>
